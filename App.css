@@ -1,0 +1,86 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-size: 15pt;
+    background-color: #000814;
+}
+
+header{
+  color: #fff;
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  background-color: #000814;
+}
+
+h1{
+  text-shadow: 0px 30px 10px #fff;
+}
+
+#container{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ margin-top: 4rem;
+ font-size: 50px;
+ height: 400px;
+}
+
+#hours-container{
+  width: 100px;
+  height:110px;
+  color: #fff;
+  background-color: #0466C8;
+ 
+  border-radius: 10px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#minutes-container{
+  width: 100px;
+  height:110px;
+  color: #fff;
+  background-color: #0466C8;
+  border-radius: 10px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+#seconds-container{
+  width: 100px;
+  height:110px;
+  color: #fff;
+  background-color: #EF233C;
+  border-radius: 10px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+span{
+  color:#fff;
+  font-size: 16px;
+  width: 100px;
+  height:110px;
+  position: absolute;
+  margin-left: 0.08rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top:0.1rem;
+  font-weight: 800;
+}
+
+.div{
+  margin-top: -14rem;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 35px;
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: 0px 0px 5px #fff;
+  
+}
+
